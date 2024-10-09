@@ -7,7 +7,7 @@ pkgrel=1
 pkgdesc='Pentaho Data Integration (ETL) a.k.a Kettle'
 arch=('x86_64')
 url='https://pentaho.com/pentaho-developer-edition/'
-license=('Apache')
+license=('Apache-2.0')
 
 depends=('java-runtime' 'gtk3' 'libxtst')
 
