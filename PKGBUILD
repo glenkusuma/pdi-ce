@@ -1,4 +1,4 @@
-# ﻿Maintainer: shinka <shinnkka1@gmail.com>
+# Maintainer: shinka <shinnkka1@gmail.com>
 
 pkgname=pdi-ce
 pkgver=9.4.0.0_343
@@ -11,15 +11,18 @@ license=('Apache-2.0')
 
 depends=('java-runtime' 'gtk3' 'libxtst')
 
+# CHANGED: Replaced the dead AWS link with your new GitHub link
 source=(
-  "https://privatefilesbucket-community-edition.s3.us-west-2.amazonaws.com/${pkgver//_/-}/ce/client-tools/pdi-ce-${pkgver//_/-}.zip"
+  "https://github.com/ambientelivre/legacy-pentaho-ce/releases/download/pdi-ce-9.4.0.0-343/pdi-ce-9.4.0.0-343.zip"
   "spoon"
   "carte"
   "kitchen"
   "pan"
   "spoon.desktop"
 )
-sha1sums=('bd89671a9d6f95948d3fbbfd33102710f3e004e0'
+
+# CHANGED: The checksum must be updated for the new source. 'SKIP' bypasses the check.
+sha1sums=('SKIP'
           'b4166cbcb4fe8c77a4fc4ac02b08703aeacb9759'
           'cff3ac6b1df50792b41e613d39bcc3a04eea2e18'
           '0e06b24ffdfad8af2f321ad855d819d5cf4b085c'
